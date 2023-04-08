@@ -1,9 +1,10 @@
 import React from 'react';
+import banner from '../../../assets/banner.png'
 
 const RightSide = () => {
     return (
-        <div>
-            <h2>This is right side</h2>
+        <div className=''>
+            <img className='w-full ' src={banner} alt="" />
         </div>
     );
 };

@@ -1,9 +1,12 @@
 import React from 'react';
+import TrendingLogo from './TrendingLogo/TrendingLogo';
+import TrendingProductSide from './TrendingProductSide/TrendingProductSide';
 
 const TrendingPart = () => {
     return (
-        <div>
-            <h2>TrendingPart</h2>
+        <div className='my-8 justify-center items-center text-center'>
+            <TrendingLogo></TrendingLogo>
+            <TrendingProductSide></TrendingProductSide>
         </div>
     );
 };

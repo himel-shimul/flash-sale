@@ -4,7 +4,7 @@ import TrendingPart from '../TrendingPart/TrendingPart';
 
 const Home = () => {
     return (
-        <div>
+        <div className=' w-[1920px]'>
             <FlashSalePart></FlashSalePart>
             <TrendingPart></TrendingPart>
         </div>

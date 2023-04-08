@@ -4,7 +4,7 @@ import FlashProductsSide from './FlashProductsSide/FlashProductsSide';
 
 const LeftSide = () => {
     return (
-        <div>
+        <div className=''>
            <LogoPart></LogoPart>
            <FlashProductsSide></FlashProductsSide>
         </div>

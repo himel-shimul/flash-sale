@@ -4,7 +4,7 @@ import trendingLogo from '../../../assets/trandingLogo.png'
 const TrendingLogo = () => {
     return (
         <div>
-            <img src={trendingLogo} alt="" />
+            <img className='mx-6' src={trendingLogo} alt="" />
         </div>
     );
 };

@@ -22,7 +22,7 @@ const FlashProductCard = ({ product }) => {
         <p className="text-lg font-bold text-[#5B9982]">${offer_price}</p>
         <sub className="text-sm line-through subscript text-gray-500">{price}</sub>
       </div>
-      <button className="text-center mt-3 text-[#5B9982] py-3 rounded w-full bg-[#cfe4d8]">Add To Cart <HiOutlineShoppingBag  className="inline"/></button>
+      <button className="text-center mt-3 text-[#5B9982] py-3 rounded w-full bg-[#cfe4d8] hover:text-white hover:bg-[#5B9982] ">Add To Cart <HiOutlineShoppingBag  className="inline"/></button>
     </div>
   );
 };

@@ -4,7 +4,7 @@ import TrendingProductSide from './TrendingProductSide/TrendingProductSide';
 
 const TrendingPart = () => {
     return (
-        <div className='my-8 justify-center items-center text-center'>
+        <div className='my-8 px-20 justify-center items-center text-center bg-[#FAFAFA]'>
             <TrendingLogo></TrendingLogo>
             <TrendingProductSide></TrendingProductSide>
         </div>

@@ -7,16 +7,11 @@ function MyTimer({ expiryTimestamp }) {
     minutes,
     hours,
     days,
-    isRunning,
-    start,
-    pause,
-    resume,
-    restart,
   } = useTimer({ expiryTimestamp, onExpire: () => console.warn('onExpire called') });
 
 
   return (
-    <div style={{textAlign: 'center'}}>
+    <div className='' style={{textAlign: 'center'}}>
       <div style={{fontSize: '24px'}}>
         <span className='bg-[#c5c1fb] rounded p-1 text-[#554FA6]'>{days}d</span> : <span  className='bg-[#c5c1fb] rounded p-1 text-[#554FA6]'>{hours}h</span> : <span  className='bg-[#c5c1fb] rounded p-1 text-[#554FA6]'>{minutes}m</span> : <span  className='bg-[#c5c1fb] rounded p-1 text-[#554FA6]'>{seconds}s</span>
       </div>

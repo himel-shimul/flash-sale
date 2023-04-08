@@ -10,12 +10,12 @@ const LogoPart = () => {
     const time = new Date();
   time.setSeconds(time.getSeconds() + 222600);
     return (
-        <div className='flex justify-between items-center'>
-            <div className='flex items-center'>
-            <img className='w-[60%]' src={logo} alt="" />
+        <div className='lg:flex justify-between items-center'>
+            <div className='lg:flex items-center'>
+            <img className='lg:w-[60%]' src={logo} alt="" />
             <MyTimer expiryTimestamp={time}></MyTimer>
             </div>
-            <div className="flex items-center my-2 mr-6">
+            <div className="flex items-center invisible lg:visible my-2 mr-6">
           <FiArrowLeft className="text-xl mr-1"></FiArrowLeft>
           <BsFillArrowRightCircleFill className="text-2xl"></BsFillArrowRightCircleFill>
         </div>

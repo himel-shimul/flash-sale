@@ -9,7 +9,7 @@ const FlashProductsSide = () => {
         .then(data => setProducts(data))
     } ,[])
     return (
-        <div className='flex'>
+        <div className='lg:flex'>
             {products.map(product => (
                 <FlashProductCard key={product.id} product={product}></FlashProductCard>
             ))}

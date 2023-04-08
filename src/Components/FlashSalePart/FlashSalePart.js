@@ -4,11 +4,11 @@ import RightSide from './RightSide/RightSide';
 
 const FlashSalePart = () => {
     return (
-        <div className='flex my-8 justify-center items-center'>
-            <div className="w-[1410px]">
+        <div className='lg:flex my-8 justify-center items-center'>
+            <div className="lg:w-[1410px]">
             <LeftSide></LeftSide>
             </div>
-            <div className="w-[282px]">
+            <div className="lg:w-[282px]">
             <RightSide></RightSide>
             </div>
         </div>

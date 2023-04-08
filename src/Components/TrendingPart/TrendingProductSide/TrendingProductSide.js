@@ -5,7 +5,7 @@ import FashionWinter from './FashionWinter/FashionWinter';
 
 const TrendingProductSide = () => {
     return (
-        <div className='flex justify-between'>
+        <div className='lg:flex justify-between lg:mx-8'>
             <div className=''>
             <FashionWomen/>
             </div>

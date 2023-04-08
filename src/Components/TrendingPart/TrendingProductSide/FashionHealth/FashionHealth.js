@@ -11,8 +11,8 @@ const FashionHealth = () => {
       .then((data) => setProducts(data));
   }, []);
   return (
-    <div>
-      <div className="flex items-center justify-between my-2">
+    <div className="lg:w-[545px]">
+      <div className="lg:flex items-center justify-between my-2">
         <h2 className="text-2xl my-7">
           <strong>Fashion</strong> For Health
         </h2>

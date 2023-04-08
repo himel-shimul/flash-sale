@@ -5,8 +5,8 @@ import FashionWinter from './FashionWinter/FashionWinter';
 
 const TrendingProductSide = () => {
     return (
-        <div className='flex justify-evenly'>
-            <div className='rtl'>
+        <div className='flex justify-between'>
+            <div className=''>
             <FashionWomen/>
             </div>
             <FashionHealth/>

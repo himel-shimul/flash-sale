@@ -26,9 +26,9 @@ const FlashProductCard = ({ product }) => {
         <sub className="text-sm line-through subscript text-gray-500">{price}</sub>
       </div>
       <div className="flex absolute bottom-16 bg-white invisible group-hover:visible left-0 w-full h-16 justify-around items-center brdr p-2">
-        <AiOutlineEye className=""></AiOutlineEye>
-        <FaRegHeart></FaRegHeart>
-        <BsArrowDownUp></BsArrowDownUp>
+        <AiOutlineEye className=" border text-4xl hover:text-white hover:bg-slate-950 p-1 rounded-full"></AiOutlineEye>
+        <FaRegHeart className=" border text-4xl hover:text-white hover:bg-slate-950 p-2 rounded-full"></FaRegHeart>
+        <BsArrowDownUp className=" border text-4xl hover:text-white hover:bg-slate-950 p-2 rounded-full"></BsArrowDownUp>
       </div>
       <button className="text-center mt-3 text-[#5B9982] py-3 rounded w-full bg-[#cfe4d8] hover:text-white hover:bg-[#5B9982] ">Add To Cart <HiOutlineShoppingBag  className="inline"/></button>
     </div>
